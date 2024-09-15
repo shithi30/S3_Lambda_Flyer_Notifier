@@ -19,7 +19,7 @@ jobs:
         python-version: "3.11.7"                                                           
 
     - name: Install dependencies                         
-      run: pip install boto3 gspread google-auth pandas
+      run: pip install boto3 gspread google-auth pyarrow pandas
 
     - name: Run Python script 
       env:
