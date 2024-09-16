@@ -1,4 +1,4 @@
-This repository pushes regular flyer data as .parquet blobs to S3 buckets, for the detection and notification of new items/flyers. <br>
+This repo pushes regular flyer data as .parquet blobs to S3 buckets, for detection and notification of new items/flyers. <br>
 
 <b>Tech Stack:</b> ```S3``` ```Lambda Functions``` ```CloudWatch``` ```GSheets API``` ```GitHub Actions```<br>
 
