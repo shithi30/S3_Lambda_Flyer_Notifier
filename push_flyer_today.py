@@ -24,7 +24,7 @@ sheet_name = "All Items"
 # retrieve data
 spreadsheet = client.open_by_url(sheet_link)
 worksheet = spreadsheet.worksheet(sheet_name)
-flyer_df = pd.DataFrame(worksheet.get_all_records()).replace("", None)[["flyer_item", "offer_price", "regular_price", "platform", "report_time"]]
+flyer_df = pd.DataFrame(worksheet.get_all_records()).replace("", None)
 
 # to parquet
 filename = "grocery_flyer_items_" + datetime.now().strftime("%Y-%m-%d") + ".parquet"
