@@ -2,7 +2,7 @@ Script(s) in this repository:
   - Pushes regular flyer data as .parquet blobs to S3 buckets, for detection and notification of new items/flyers
   - Crawls and transforms newly pushed S3 ojects using Glue jobs, and shows daily statistics on GSheet from S3
   
-<b>Tech Stack:</b> ```AWS - S3, Glue, Lambda, CloudWatch, boto3``` ```Parquet``` ```GSheets API``` ```GitHub Actions``` <br>
+<b>Tech Stack:</b> ```AWS - S3, Glue, Lambda, CloudWatch, boto3``` ```PySpark``` ```Parquet``` ```GSheets API``` ```GitHub Actions``` <br>
 
 ### Output Notifications
 <img width="380" alt="c5" src="https://github.com/user-attachments/assets/755b9487-aad9-46f9-919b-3b5b76854934"><br>
