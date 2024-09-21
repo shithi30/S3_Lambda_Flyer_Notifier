@@ -1,11 +1,12 @@
 # import
-import os
 import boto3
 import io
 import pandas as pd
 import duckdb
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
+import os
+import json
 
 # env, client
 os.environ["AWS_ACCESS_KEY_ID"] = os.getenv("AWS_ACCESS_KEY_ID")
