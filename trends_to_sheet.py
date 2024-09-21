@@ -7,8 +7,6 @@ import duckdb
 from googleapiclient.discovery import build
 from google.oauth2 import service_account
 
-READ_WRITE_TO_GSHEET_APIS_JSON
-
 # env, client
 os.environ["AWS_ACCESS_KEY_ID"] = os.getenv("AWS_ACCESS_KEY_ID")
 os.environ["AWS_SECRET_ACCESS_KEY"] = os.getenv("AWS_SECRET_ACCESS_KEY")
